@@ -1,2 +1,2 @@
 # cheatsheet
-clever commands for dealing with small repetitive problems
+commands for repetitive problems I can not remember
