@@ -7,3 +7,8 @@ command >> file
 ```
 command > file
 ```
+
+##### compute SHA-256 checksum of file
+```
+shasum -a 256 file
+```
