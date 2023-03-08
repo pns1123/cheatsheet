@@ -13,3 +13,15 @@
 ```
 ?word
 ```
+
+##### replace word1 with word2 in current line
+- see https://linuxize.com/post/vim-find-replace/
+```
+:s/word1/word2/g
+```
+
+##### replace word1 with word2 in current line
+- see https://linuxize.com/post/vim-find-replace/
+```
+:%s/word1/word2/g
+```
