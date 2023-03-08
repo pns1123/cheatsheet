@@ -20,7 +20,7 @@
 :s/word1/word2/g
 ```
 
-##### replace word1 with word2 in current line
+##### replace word1 with word2 in entire file
 - see https://linuxize.com/post/vim-find-replace/
 ```
 :%s/word1/word2/g
