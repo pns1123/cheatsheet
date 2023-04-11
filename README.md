@@ -1,2 +1,2 @@
 # cheatsheet
-commands I regularly need but can not remember
+commands I regularly need but cannot remember
