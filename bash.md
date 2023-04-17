@@ -27,3 +27,8 @@ tar -xf archive.tar.gz
 tar -xvf archive.tar.gz
 tar -xvzf archive.tar.gz
 ```
+
+##### list all file with extension .example
+```
+ls | grep \\.example
+```
