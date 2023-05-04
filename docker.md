@@ -11,3 +11,14 @@ docker exec -it mycontainer /bin/bash
 ```
 docker run -p 8042:8069
 ```
+
+##### push my_image to my_project in GCR under image name gcr_name
+be aware of different storage zones:
+- gcr.io - US
+- asia.gcr.io - Asia
+- eu.gcr.io - EU member states
+- us.gcr.io - US
+```
+docker tag my_image gcr.io/my_project/gcr_name
+docker push gcr.io/my_project/gcr_name
+```
