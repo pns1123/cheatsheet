@@ -22,3 +22,10 @@ be aware of different storage zones:
 docker tag my_image gcr.io/my_project/gcr_name
 docker push gcr.io/my_project/gcr_name
 ```
+
+##### delete all docker images
+- a "all"
+- q "quiet", return only image ids
+```
+docker rmi $(docker image ls -aq)
+```
