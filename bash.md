@@ -32,3 +32,8 @@ tar -xvzf archive.tar.gz
 ```
 ls | grep \\.example
 ```
+
+#### created directories dir1...dirNUM 
+```
+mkdir dir{1..NUM}
+```
