@@ -43,3 +43,8 @@ mkdir dir{1..NUM}
 ```
 df -h
 ```
+
+##### print unix time
+```
+date +%s
+```
