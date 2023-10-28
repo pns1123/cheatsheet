@@ -25,3 +25,8 @@
 ```
 :%s/word1/word2/g
 ```
+
+##### jump to opposite closed bracket
+```
+%
+```
