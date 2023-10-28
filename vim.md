@@ -30,3 +30,19 @@
 ```
 %
 ```
+
+##### delete next word
+```
+dw
+```
+
+##### delete current line
+```
+dd
+```
+
+##### delete next 3 symbols
+```
+xxx
+```
+
