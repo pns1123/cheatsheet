@@ -48,3 +48,20 @@ df -h
 ```
 date +%s
 ```
+
+##### set ENV_VAR to "ENV_VAR" [no spaces!] for current shell
+```
+ENV_VAR="ENV_VAR"
+```
+
+##### set ENV_VAR to "ENV_VAR" [no spaces!] for current shell and all processes launched from it
+- to set permanently for all future bash sessions add this to ~.bashrc
+```
+export ENV_VAR="ENV_VAR"
+```
+
+##### print values of environment ENV_VAR_1, ENV_VAR_2, ..., ENV_VAR_N 
+- to print all env key value pairs omit arguments
+```
+printenv ENV_VAR_1, ENV_VAR_2, ..., ENV_VAR_N
+```
