@@ -65,3 +65,13 @@ export ENV_VAR="ENV_VAR"
 ```
 printenv ENV_VAR_1, ENV_VAR_2, ..., ENV_VAR_N
 ```
+
+##### create a new symlink (fails if symlink already exists)
+```
+ln -s /path/to/file /path/to/symlink
+```
+
+##### create or update symlink
+```
+ln -sf /path/to/file /path/to/symlink
+```
