@@ -46,3 +46,9 @@ dd
 xxx
 ```
 
+##### copy to clipboard
+in visual mode
+```
+"+y
+```
+
